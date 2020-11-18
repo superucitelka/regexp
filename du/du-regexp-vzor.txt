@@ -1,0 +1,6 @@
+Regulární výraz pro vložení platného údaje v CSS, týkajícího se velikosti písma v pixelech (s omezením rozsahu 4px až 99px). 
+
+Platné údaje: 20px, 9px, 99px
+Neplatné údaje: 3px, 100px, 8 px, 08px, -10px
+
+Navržený regulární výraz: ^([4-9]|[1-9]\d)px$
